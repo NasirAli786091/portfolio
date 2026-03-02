@@ -1,4 +1,3 @@
-import myImg from "../../public/myImg.jpg";
 import Skills from "../components/Skills";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
                 {/* Image */}
                 <div className="w-50 h-60 sm:w-60 sm:h-90">
                     <div className="w-full h-full">
-                        <img src={myImg} alt="my-image" className="w-full h-full object-cover rounded-[100px]" />
+                        <img src="/assets/myImg.JPG" alt="me" className="w-full h-full object-cover rounded-[100px]" />
                     </div>
                 </div>
 
