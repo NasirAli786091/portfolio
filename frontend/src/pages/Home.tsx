@@ -1,4 +1,4 @@
-import myImg from "../assets/myImg.jpg";
+import myImg from "../../public/myImg.jpg";
 import Skills from "../components/Skills";
 
 export default function Home() {
