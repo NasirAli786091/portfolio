@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root{
+  --weight: 800;
+  --ff: "Urbanist", sans-serif; 
+}
+
+
+#root{
+  background-color: #030712;
+  /* width: 100vw; */
+  min-height: 100vh;
+  color: #979CAC;
+  font: var(--ff), sans-serif;
+  font-weight: 800;
+  cursor: default;
+}
